@@ -27,3 +27,18 @@ img{
     margin-top: -26px;
     margin-bottom: 12%;
 }
+form div {
+    margin: 1.5rem; 
+}
+.end:hover{
+    color: violet;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.end{
+    background-color: rgb(19, 73, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategrey;
+    padding: 1rem;
+}

@@ -11,29 +11,30 @@
 <body class="container bg-dark">
     <main class=" d-flex justify-content-between shadow">
         <h1 class="text-lg text-success">Zeeshan.</h1>
-        <div class="nav-bar">
+        <div class="nav-bar"> 
           <ul class="d-flex gap-3">
             <li> <a class="text-light" href="#home">Home</a></li>
             <li> <a class="text-light" href="#about-me">About-me</a></li>
             <li> <a class="text-light" href="#education">Education</a></li>
             <li> <a class="text-light" href="#contact">Contact</a></li>
+            <input type="text"placeholder="search..">
           </ul>
        </div>
     </main>
     <section class="d-flex gap-5 Home " id="home">
       <div class="mt-5">
-        <h1 class="text-lg text-light">Hi, i'm Zeeshan Musera</h1>
+        <h1 class="text-lg text-light" id="Zm">Hi, i'm Zeeshan Musera</h1>
         <p class="text-lg text-light">A web developer currently undertaking classes in web  <br>programing perfecting Django react javascript </p>
         <p class="text-lg text-light">Commitment Resilience Urge Consistencey</p>
         <p  class="text-lg text-light">i am a frontend developer</p>
-        <a class="btn btn-danger btn-lg rounded-circle" href="#" role="button">more about me</a>
+        <button id="mam"><a class="btn btn-danger btn-lg " href="#" role="button" >more about me</a></button>
       </div>
       <div> 
        <img class="rounded-circle" src="zeey.jpg" alt="zeeshan">
       </div>
     </section>
     <section class="  container About-me" id="about-me">
-      <h1 class="text-lg text-light">Mindset is everything chainging it is the power</h1>
+      <h1 class="text-lg text-light">Mindset is everything changing it is the power</h1>
       <p class="text-lg text-light">I am a Godfearing and a worshipper my desire is to worship God</p>
       <div class="text-lg text-success">
         <h1>My Story:</h1>
@@ -64,6 +65,26 @@
         </ul>
       </div>
     </section>
-    
+    <footer class="end">
+      <div id="my-form">
+        <form class="text-lg text-light" action="">
+          <div>
+            <label for="myName">Name:</label>
+            <input type="text" name="name" id="myName" required>
+          </div>
+          <div>
+            <label for="myEmail">Email:</label>
+            <input type="email" name="email" id="myEmail">
+          </div>
+          <div>
+            <textarea name="areas" id="areas" cols="30" rows="10" placeholder="type your message in this box"></textarea>
+          </div>
+          <div >
+            <input id="btn" type="submit" value="Submit" >
+          </div>
+        </form>
+      </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
